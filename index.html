@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.0.min.css" />
+<!--<link rel="stylesheet" href="css/jquery.mobile.theme-1.0.min.css" />-->
+<link rel="stylesheet" href="css/party.css" />
+<!--script src="phonegap.js"></script-->
+<script src="js/jquery-1.6.4.min.js"></script>
+<script src="js/jquery.mobile-1.0.min.js"></script>
+</head>
+
+
+<body>
+<div data-role="page" id="enviarDatos">
+<div data-role="header">
+<h3>Registro de Calificaciones</h3>
+</div>
+<div data-role="content">
+<form action="http://califitslibres.comoj.com/procesar.php" method="POST">
+<div data-role="fieldcontain">
+<input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+</div>
+<div data-role="fieldcontain">
+<input type="text" id="semestre" name="semestre" placeholder="Semestre"/>
+</div>
+<div data-role="fieldcontain">
+<input type="tel" id="parcial1" name="parcial1" placeholder="Parcial 1"/>
+</div>
+<div data-role="fieldcontain">
+<input type="tel" id="parcial2" name="parcial2" placeholder="Parcial 2"/>
+</div>
+<div data-role="fieldcontain">
+<input type="tel" id="parcial3" name="parcial3" placeholder="Parcial 3"/>
+</div>
+<div data-role="fieldcontain">
+<input type="tel" id="parcial4" name="parcial4" placeholder="Parcial 4"/>
+</div>
+<div data-role="fieldcontain">
+<input type="submit" id="envio" name="envio" value="Enviar"/>
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>
